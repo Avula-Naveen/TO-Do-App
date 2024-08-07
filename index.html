@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App by Naveen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/button/editBtn.css">
+    <link rel="stylesheet" href="/button/deleteBtn.css">
+    <link rel="stylesheet" href="/button/addTask.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- <video autoplay muted loop class="back-video">
+            <source src="/button/white motion.mp4" type="video/mp4">
+        </video> -->
+
+        <div class="stats-container">
+            <div class="details">
+                <h1>To-do App</h1>
+                <p>keep it Up!</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-number">
+                <p id="numbers">0/0</p>
+            </div>
+        </div>
+        <form action="">
+            <input type="text" id="taskInput" placeholder="write your task">
+            <button class="Btn" id="newTask" type="submit" >
+  
+                <div class="sign">+</div>
+                
+                <div class="text">Create</div>
+              </button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
